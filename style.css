@@ -151,3 +151,13 @@
    transform: translateY(0%);
   }
  }
+/* ======================= Custom Scrollbar ========================== */
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: #c1c1e6;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #5a58e9;
+}
